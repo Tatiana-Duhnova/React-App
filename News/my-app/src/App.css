@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+h1, p, h3 {
+  color: #09d3ac;
+  text-decoration: underline;
+}
+
+a {
+  padding-left: 10px;
+  color: teal;
+  cursor: pointer;
+}
+
+span, strong, .white {
+  color: white !important;
+  text-decoration: none;
+  display: block;
+}
+
+.news {
+  border: rosybrown solid 2px;
+  border-radius: 60px;
+  box-shadow: 4px 3px 9px 0 lightslategray;
+  height: auto;
+  width: auto;
+  margin: 20px 0;
+}
+
+.add_autor, .add_text {
+  border: rosybrown solid 2px;
+  border-radius: 60px;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  background-color: #282c34;
+  color: teal;
+  font-size: 20px;
+  margin: 10px 0;
+  outline: none;
+}
+
+.btn {
+  border: rosybrown solid 2px;
+  border-radius: 60px;
+  background-color: #282c34;
+  height: 30px;
+  color: #09d3ac;
+  font-size: 13px;
+  margin: 15px 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #CCC;
+  color: #999;
+}
+
+.form {
+  border: rosybrown dashed 2px;
+  border-radius: 60px;
+  box-shadow: 4px 3px 9px 0 lightslategray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 20px;
+}
